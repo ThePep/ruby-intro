@@ -26,3 +26,7 @@ weather_data = {
     { temperature: 70, conditions: "Partly Cloudy" }
   ]
 }
+
+puts "Currently it is #{weather_data[:current][:temperature]} and #{weather_data[:current][:conditions]}. ".downcase.capitalize + "Tomorrow it will be #{weather_data[:forecast][0][:temperature]} and #{weather_data[:forecast][0][:conditions]}.".downcase.capitalize
+puts "The next day we will see #{weather_data[:forecast][1][:conditions]} skies, with a temperature of #{weather_data[:forecast][1][:temperature]}.".downcase.capitalize
+

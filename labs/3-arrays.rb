@@ -14,3 +14,12 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+shopping_list_me = ["milk","eggs","bacon"]
+shopping_list_friend = ["beer","cookies","apples"]
+shopping_list_combined = [[shopping_list_me],[shopping_list_friend]]
+shopping_list_combined_v2 = shopping_list_me + shopping_list_friend
+
+shopping_list_combined_v2.sort!
+
+puts shopping_list_combined_v2

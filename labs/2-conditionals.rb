@@ -25,3 +25,21 @@
 # "i would like #{5} tacos"
 # We can specify multiple conditions with || (OR) and && (AND)
 # if dinner == "tacos" || dinner == "pizza"
+
+die1 = rand(1..6)
+die2 = rand(1..6)
+roll = "#{die1} \n#{die2}"
+rolltotal = die1 + die2
+
+puts roll
+puts "the total is #{rolltotal}"
+
+if rolltotal == 7 || rolltotal == 11
+    puts "you win!"
+elsif rolltotal == 2 || rolltotal == 3 || rolltotal == 12
+    puts "you lose"
+elsif
+    puts "the point is #{rolltotal}"
+end
+
+
